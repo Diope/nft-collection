@@ -5,7 +5,7 @@ import { ethers } from "ethers";
 import myEpicNft from './utils/MyEpicNFT.json';
 
 // Constants
-const TWITTER_HANDLE = '_buildspace';
+const TWITTER_HANDLE = 'somiskeen';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = `https://testnets.opensea.io/0x7ffc0f322f2c56c32510b42d5572e33e9f4ef78f`;
 //const TOTAL_MINT_COUNT = 50;
@@ -147,7 +147,7 @@ const App = () => {
             href={TWITTER_LINK}
             target="_blank"
             rel="noreferrer"
-          >{`Built on @${TWITTER_HANDLE}`}</a>
+          >{`Follow me on Twitter @${TWITTER_HANDLE}`}</a>
         </div>
       </div>
     </div>
