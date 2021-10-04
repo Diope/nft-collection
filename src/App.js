@@ -8,7 +8,7 @@ import myEpicNft from './utils/MyEpicNFT.json';
 const TWITTER_HANDLE = '_buildspace';
 const TWITTER_LINK = `https://twitter.com/${TWITTER_HANDLE}`;
 const OPENSEA_LINK = `https://testnets.opensea.io/0x7ffc0f322f2c56c32510b42d5572e33e9f4ef78f`;
-const TOTAL_MINT_COUNT = 50;
+//const TOTAL_MINT_COUNT = 50;
 const CONTRACT_ADDRESS = "0x6C61846aB752007Cb41CD657ddD46DaE3E70Ea91";
 
 const App = () => {
@@ -109,6 +109,7 @@ const App = () => {
 
   useEffect(() => {
     checkIfWalletIsConnected();
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   },[])
   // Render Methods
   const renderNotConnectedContainer = () => (
